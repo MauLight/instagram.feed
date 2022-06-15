@@ -1,0 +1,173 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <script src="https://kit.fontawesome.com/ad2c299fee.js" crossorigin="anonymous"></script>
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fascinate&display=swap" rel="stylesheet">
+
+  <title>Instagram clone</title>
+</head>
+
+<body>
+  <div class="container">
+    <div class="col align-self-center">
+      <nav class="navbar navbar-expand-lg navbar-light bg-light" style="line-height: -1;">
+
+        <a class="navbar-brand" href="./index3.html">
+          <p style="font-style: italic; font-family: 'Fascinate', cursive; padding-top: 10px;"><i class="fa-brands fa-instagram fa-lg" </i></i> Instagram
+          </p>
+        </a>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+          </ul>
+          <form class="form-inline my-2 my-lg-0">
+            <!-- Button trigger modal -->
+            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+              Create a new post
+            </button>
+
+            <!-- Modal -->
+            <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+              aria-labelledby="staticBackdropLabel" aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="staticBackdropLabel"></h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    <textarea name="" id="" cols="60" autocomplete="on" rows="10" style="text-align: justify;"></textarea>
+                    <button style="border: 0px;"><i class="fa-solid fa-camera"></i></button>
+                    <button style="border: 0px;"><i class="fa-solid fa-location-dot"></i></button>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Publish</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </form>
+
+          <div class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              <i class="fa-solid fa-gear"></i>
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">Log Out</a></li>
+            </ul>
+          </div>
+
+        </div>
+      </nav>
+    </div>
+
+    <ul class="nav justify-content-center">
+      <li class="nav-item">
+        <a class="nav-link active" href="./index.html">
+          <i class="fa-solid fa-grip"></i>
+        </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="./index2.html">
+          <i class="fa-solid fa-square"></i>
+        </a>
+      </li>
+      <li class="nav-item">
+
+      </li>
+      <li class="nav-item">
+
+      </li>
+    </ul>
+  </div>
+
+  <div id="photofeed">
+    <div class="container">
+      <div class="post">
+        <div>
+          <div class="post-header">
+            <div>
+              <h2>First Photo</h2>
+            </div>
+            <div><span>12/10</span>
+            </div>
+          </div>
+        </div>
+        <div>
+          <img src="./2.jpg">
+        </div>
+        <div>
+          <p>This is my first photo of the feed, it is a good picture all things considered. Maybe I should think about
+            a career in <strong>#photography.</strong></p>
+          <i class="fa-regular fa-heart"></i>
+          <input type="text" name="" id="" placeholder="Comment...">
+          <i class="fa-solid fa-ellipsis-vertical"></i>
+        </div>
+      </div>
+      <div class="post">
+        <div>
+          <div class="post-header">
+            <div>
+              <h2>Second Photo</h2>
+            </div>
+            <div><span>12/8</span>
+            </div>
+          </div>
+        </div>
+        <div>
+          <img src="./1.jpg">
+        </div>
+        <div>
+          <p>This is my second photo of the feed, it's not like I took this pic, I just stole the url from
+            <strong>#lorempicsum.</strong>
+          </p>
+          <i class="fa-regular fa-heart"></i>
+          <input type="text" name="" id="" placeholder="Comment...">
+          <i class="fa-solid fa-ellipsis-vertical"></i>
+        </div>
+      </div>
+      <div class="post">
+        <div>
+          <div class="post-header">
+            <div>
+              <h2>Third Photo</h2>
+            </div>
+            <div><span>12/6</span>
+            </div>
+          </div>
+        </div>
+        <div>
+          <img src="./3.jpg">
+        </div>
+        <div>
+          <p>This is my third photo of the feed, I think this one has a lot of meaning to me because I'm just
+            <strong>#inventingthingsasIgo.</strong>
+          </p>
+          <i class="fa-regular fa-heart"></i>
+          <input type="text" name="" id="" placeholder="Comment...">
+          <i class="fa-solid fa-ellipsis-vertical"></i>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
