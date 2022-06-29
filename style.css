@@ -8,6 +8,9 @@ h1{
 div.post{
     background: white;
     margin-top: 10px;
+    margin-bottom: 50px;
+    background-color: #f8f9fa;
+    border-radius: 8px;
 }
 div.post img{
     width: 100%;
@@ -38,8 +41,20 @@ input{
     border: 0ch;
     outline: none;
     width: 94.5%;
+    margin-bottom: 10px;
+}
+
+.post {
+    
+    padding-bottom: 10px;
 }
 
 input:focus{
     border: 0ch;
+}
+
+.row img {
+    vertical-align: none;
+    padding: 2px;
+    border-radius: 2px;
 }
